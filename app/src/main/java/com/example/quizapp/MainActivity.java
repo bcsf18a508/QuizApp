@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ProceedBtn.setOnClickListener(v -> {
             String data1 = name.getText().toString();
             String data2 = rollNum.getText().toString();
-            Intent nextScreen = new Intent(getApplicationContext(),Questionare.class);
+            Intent nextScreen = new Intent(getApplicationContext(),Questionnaire.class);
             nextScreen.putExtra("Name", data1);
             nextScreen.putExtra("RollNum",data2);
             startActivity(nextScreen);
