@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Questionare extends AppCompatActivity {
+public class Questionnaire extends AppCompatActivity {
     TextView questionBox;
     RadioGroup radioGroup;
     RadioButton r1,r2,r3,r4;
